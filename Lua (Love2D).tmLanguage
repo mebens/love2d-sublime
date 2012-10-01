@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>fileTypes</key>
+  <array/>
+  <key>foldingStartMarker</key>
+  <string>^\s*\b(function|local\s+function|if|for)\b|{[ \t]*$|\[\[</string>
+  <key>foldingStopMarker</key>
+  <string>\bend\b|^\s*}|\]\]</string>
+  <key>keyEquivalent</key>
+  <string>^~L</string>
+  <key>name</key>
+  <string>Lua (Love2D)</string>
+  <key>patterns</key>
+  <array>
+    <dict>
+      <key>include</key>
+      <string>source.lua</string>
+    </dict>
+    <dict>
+      <key>match</key>
+      <string>\b(love)\b|\b(?&lt;=love\.)(audio|event|filesystem|font|graphics|image|joystick|keyboard|mouse|physics|sound|thread|timer)\b</string>
+      <key>name</key>
+      <string>support.variable.lua.love</string>
+    </dict>
+    <dict>
+      <key>match</key>
+      <string>\b((?&lt;=\.|:)draw|focus|joystickpressed|joystickreleased|keypressed|keyreleased|load|mousepressed|mousereleased|quit|run|update|getDirection|getDistance|getPitch|getPosition|getVelocity|getVolume|isLooping|isPaused|isStatic|isStopped|pause|play|resume|rewind|seek|setDirection|setLooping|setPitch|setPosition|setVelocity|setVolume|stop|tell|getDistanceModel|getNumSources|getOrientation|getPosition|getVelocity|getVolume|newSource|pause|play|resume|rewind|setDistanceModel|setOrientation|setPosition|setVelocity|setVolume|stop|clear|poll|pump|push|quit|wait|close|eof|getSize|lines|open|read|seek|write|getExtension|getFilename|enumerate|exists|getAppdataDirectory|getLastModified|getSaveDirectory|getUserDirectory|getWorkingDirectory|init|isDirectory|isFile|lines|load|mkdir|newFile|newFileData|read|remove|setIdentity|setSource|write|newFontData|newGlyphData|newRasterizer|clear|getImageData|getWrap|renderTo|setWrap|getHeight|getLineHeight|getWidth|getWrap|setLineHeight|getFilter|getHeight|getWidth|getWrap|setFilter|setWrap|count|getDirection|getOffsetX|getOffsetY|getSpread|getX|getY|isActive|isEmpty|isFull|pause|reset|setBufferSize|setColors|setDirection|setEmissionRate|setGravity|setLifetime|setOffset|setParticleLife|setPosition|setRadialAcceleration|setRotation|setSizes|setSizeVariation|setSpeed|setSpin|setSpinVariation|setSpread|setSprite|setTangentialAcceleration|start|stop|update|getWarnings|send|flip|getViewport|setViewport|add|addq|bind|clear|setImage|unbind|arc|checkMode|circle|clear|draw|drawq|getBackgroundColor|getBlendMode|getCanvas|getCaption|getColor|getColorMode|getDefaultImageFilter|getFont|getHeight|getLineStipple|getLineStyle|getLineWidth|getMaxPointSize|getMode|getModes|getPixelEffect|getPointSize|getPointStyle|getScissor|getWidth|hasFocus|isCreated|isSupported|line|newCanvas|newFont|newImage|newImageFont|newParticleSystem|newPixelEffect|newQuad|newScreenshot|newSpriteBatch|newStencil|point|polygon|pop|present|print|printf|push|quad|rectangle|reset|rotate|scale|setBackgroundColor|setBlendMode|setCanvas|setCaption|setColor|setColorMode|setDefaultImageFilter|setFont|setIcon|setInvertedStencil|setLine|setLineStipple|setLineStyle|setLineWidth|setMode|setNewFont|setPixelEffect|setPoint|setPointSize|setPointStyle|setScissor|setStencil|shear|toggleFullscreen|translate|triangle|encode|getHeight|getPixel|getString|getWidth|mapPixel|paste|setPixel|newEncodedImageData|newImageData|close|getAxes|getAxis|getBall|getHat|getName|getNumBalls|getNumButtons|getNumHats|getNumJoysticks|isDown|isOpen|open|getNumAxes|getKeyRepeat|isDown|setKeyRepeat|getPosition|getX|getY|isDown|isGrabbed|isVisible|setGrab|setPosition|setVisible|applyAngularImpulse|applyForce|applyLinearImpulse|applyTorque|destroy|getAllowSleeping|getAngle|getAngularDamping|getAngularVelocity|getFixtureList|getInertia|getLinearDamping|getLinearVelocity|getLinearVelocityFromLocalPoint|getLinearVelocityFromWorldPoint|getLocalCenter|getLocalPoint|getLocalVector|getMass|getMassData|getPosition|getType|getWorldCenter|getWorldPoint|getWorldPoints|getWorldVector|getX|getY|isActive|isAwake|isBullet|isDynamic|isFixedRotation|isFrozen|isSleeping|isSleepingAllowed|isStatic|putToSleep|resetMassData|setAllowSleeping|setAngle|setAngularDamping|setAngularVelocity|setAwake|setBullet|setFixedRotation|setGravityScale|setInertia|setLinearDamping|setLinearVelocity|setMass|setMassData|setMassFromShapes|setPosition|setSleepingAllowed|setType|setX|setY|wakeUp|getLocalCenter|getRadius|getWorldCenter|getFriction|getNormal|getPosition|getRestitution|getSeparation|getVelocity|getDamping|getFrequency|getLength|setDampingRatio|setFrequency|setLength|destroy|getBody|getBoundingBox|getCategory|getDensity|getFilterData|getFriction|getGroupIndex|getMask|getMassData|getRestitution|getShape|getUserData|isSensor|rayCast|setCategory|setDensity|setFilterData|setFriction|setGroupIndex|setMask|setRestitution|setSensor|setUserData|testPoint|getMaxForce|getMaxTorque|setMaxForce|setMaxTorque|getRatio|setRatio|destroy|getAnchors|getCollideConnected|getReactionForce|getReactionTorque|getType|setCollideConnected|getMaxForce|getTarget|setMaxForce|setTarget|getPoints|getJointSpeed|getJointTranslation|getLimits|getLowerLimit|getMaxMotorForce|getMotorForce|getMotorSpeed|getUpperLimit|isLimitsEnabled|isMotorEnabled|setLimits|setLimitsEnabled|setLowerLimit|setMaxMotorForce|setMotorEnabled|setMotorSpeed|setUpperLimit|getConstant|getGroundAnchors|getLength1|getLength2|getMaxLengths|getRatio|setConstant|setMaxLengths|setRatio|enableMotor|getJointAngle|getJointSpeed|getLimits|getLowerLimit|getMaxMotorTorque|getMotorSpeed|getMotorTorque|getUpperLimit|isLimitsEnabled|isMotorEnabled|setLimits|setLimitsEnabled|setLowerLimit|setMaxMotorTorque|setMotorSpeed|getMaxLength|computeAABB|computeMass|destroy|getBody|getBoundingBox|getChildCount|getData|getDensity|getFilterData|getFriction|getRestitution|getType|rayCast|setData|setDensity|setFilterData|setFriction|setRestitution|testPoint|testSegment|destroy|getAllowSleeping|getBodyCount|getBodyList|getCallbacks|getContactCount|getContactFilter|getContactList|getGravity|getJointCount|getJointList|isAllowSleep|isLocked|queryBoundingBox|rayCast|setAllowSleeping|setCallbacks|setGravity|update|getDistance|getMeter|newBody|newChainShape|newCircleShape|newDistanceJoint|newEdgeShape|newFixture|newFrictionJoint|newGearJoint|newMouseJoint|newPolygonShape|newPrismaticJoint|newPulleyJoint|newRectangleShape|newRevoluteJoint|newRopeJoint|newWeldJoint|newWheelJoint|newWorld|setMeter|getBits|getChannels|getSampleRate|getBits|getChannels|getSample|getSampleRate|setSample|newDecoder|newSoundData|demand|getThread|getThreads|newThread|getDelta|getFPS|getMicroTime|getTime|sleep|step)\b</string>
+      <key>name</key>
+      <string>support.function.lua.love</string>
+    </dict>
+  </array>
+  <key>scopeName</key>
+  <string>source.lua.love</string>
+  <key>uuid</key>
+  <string>93F46C5C-30D8-4393-96FF-60EC6FA4EFC6</string>
+</dict>
+</plist>

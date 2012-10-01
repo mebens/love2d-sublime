@@ -1,0 +1,5 @@
+{
+  // requires a symbolic link in a location specified by PATH
+  "cmd": ["love", "${project_path:${folder:${file_path}}}"],
+  "selector": "source.lua.love"
+}
